@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="text">
+
+        <h1>Butterfly Generator</h1>
+        
+        <button  class="btn" >generate</button>
+        
+        <div class="border">
+          <div class="frame">
+              <div class="image" style="background-image: url(static/butterfly.png)"></div>
+          </div>
+          </div>
+      </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
