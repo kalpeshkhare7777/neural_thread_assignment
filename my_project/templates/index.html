@@ -1,4 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butterfly Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="text">
+        <h1>Butterfly Generator</h1>
+        
+        <!-- Call the generateButterfly function when the button is clicked -->
+        <button class="btn" id="generateBtn">Generate</button>
+        
+        <div class="border">
+            <div class="frame">
+                <!-- Display the generated butterfly image here -->
+                <div class="image" id="butterflyImage"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Include script.js for handling frontend logic -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
+
+<!-- <html>
 <head>
     <title>Flask App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -8,7 +37,7 @@
 
         <h1>Butterfly Generator</h1>
         
-        <button  class="btn" >generate</button>
+        <button  class="btn" onclick="generateButterfly()">generate</button>
         
         <div class="border">
           <div class="frame">
@@ -18,4 +47,4 @@
       </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
-</html>
+</html> -->

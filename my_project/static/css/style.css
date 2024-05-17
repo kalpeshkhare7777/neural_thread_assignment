@@ -151,16 +151,16 @@
     background: white;
     align-items: center;
     display: flex;
-    padding: 18px;
+    padding: 16px;
     box-sizing: border-box;
     position: absolute;
     margin: 0 auto;
   }
   
-  .image{
+  img{
     box-shadow: inset 0 0 1px 0 rgba(0,0,0,.2);
-    height: 100%;
-    width: 100%;
+    height: 180px;
+    width: 180px;
     background-size: cover;
     background-position: center center;
   }
